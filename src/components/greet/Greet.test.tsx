@@ -6,11 +6,9 @@ describe('Greet', () => {
         const textElement = screen.getByText('Hello Guest')
         expect(textElement).toBeInTheDocument()
     })
-    describe('Nested', () => {
-        test('renders a name', () => {
-            render(<Greet name="Vishwas" />)
-            const textElement = screen.getByText('Hello Vishwas')
-            expect(textElement).toBeInTheDocument()
-        })
+    test('renders a name', () => {
+        render(<Greet name="Vishwas" />)
+        const textElement = screen.getByText('Hello Vishwas')
+        expect(textElement).toBeInTheDocument()
     })
 })
