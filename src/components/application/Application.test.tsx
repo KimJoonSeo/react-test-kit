@@ -14,7 +14,8 @@ describe('Application', () => {
             level: 2
         })
         expect(sectionHeading).toBeInTheDocument();
-        const paragraphElement = screen.getByText('All fields are mandatory');
+        // const paragraphElement = screen.getByText('All fields are mandatory');
+        const paragraphElement = screen.getByText(/all fields are mandatory/i)
         expect(paragraphElement).toBeInTheDocument();
         const imageElement = screen.getByAltText('a person with a laptop');
         expect(imageElement).toBeInTheDocument();
