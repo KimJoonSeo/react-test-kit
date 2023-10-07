@@ -20,6 +20,8 @@ describe('Application', () => {
         expect(imageElement).toBeInTheDocument();
         const closeElement = screen.getByTitle('close');
         expect(closeElement).toBeInTheDocument();
+        const customElement = screen.getByTestId('custom-element');
+        expect(customElement).toBeInTheDocument();
         const nameElement = screen.getByRole('textbox', {
            name: 'Name',
         });
