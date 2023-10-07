@@ -31,6 +31,9 @@ describe('Application', () => {
         const nameElement3 = screen.getByPlaceholderText('Fullname');
         expect(nameElement3).toBeInTheDocument();
 
+        const nameElement4 = screen.getByDisplayValue('Vishwas');
+        expect(nameElement4).toBeInTheDocument();
+
         expect(bioElement).toBeInTheDocument();
         const jobLocationElement = screen.getByRole('combobox');
         expect(jobLocationElement).toBeInTheDocument();
