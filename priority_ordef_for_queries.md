@@ -9,3 +9,7 @@ Main Principal : A test should resemble how users interact with the code (compon
 6. getByAltText
 7. getByTitle
 8. getByTestId
+
+getBy and getAllBy : for the purpose of finding out the specific element(s) exists
+queryBy and queryAllBy : for the purpose of finding out the specific element(s) doesn't exist
+findBy and findAllBy : for the purpose of testing promise objects
