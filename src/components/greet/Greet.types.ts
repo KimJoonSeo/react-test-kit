@@ -1,5 +1,5 @@
 type GreetProps = {
-    name?: string
+  name?: string
 }
 
-export default GreetProps;
+export default GreetProps

@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
-import {AppProviders} from "./providers/app-providers";
-import {MuiMode} from "./components/mui/mui-mode";
+import React from 'react'
+import './App.css'
+import { AppProviders } from './providers/app-providers'
+import { MuiMode } from './components/mui/mui-mode'
 
 function App() {
   return (
-      <AppProviders>
-        <div className="App">
-          <MuiMode />
-        </div>
-      </AppProviders>
-  );
+    <AppProviders>
+      <div className="App">
+        <MuiMode />
+      </div>
+    </AppProviders>
+  )
 }
 
-export default App;
+export default App
